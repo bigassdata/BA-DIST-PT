@@ -37,8 +37,8 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
-/** Allow Multisite */
-define('WP_ALLOW_MULTISITE', true);
+/* Multisite */
+define( 'WP_ALLOW_MULTISITE', true );
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -89,7 +89,6 @@ define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
-/* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
